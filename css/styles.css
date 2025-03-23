@@ -1,3 +1,5 @@
+/* ------------------PAGE------------------ */
+
 body {
     font-family: "Poppins", sans-serif;
     color: #22343d;
@@ -8,10 +10,426 @@ a {
     color: currentColor;
 }
 
-ul {
+ul,
+ol {
     list-style-type: none;
+    margin: 0;
+    padding: 0;
 }
 
 button {
     cursor: pointer;
+    border-color: transparent;
+    border: none;
 }
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    display: block;
+}
+
+.container {
+    width: 1150px;
+    padding: 0 20px;
+    margin: 0 auto;
+}
+
+.small-title {
+    font-weight: 600;
+    font-size: 16px;
+}
+
+/* ------------------PAGE------------------ */
+
+/* ------------------HEADER------------------ */
+
+.header {}
+
+.header .container {
+    display: flex;
+}
+
+.nav {
+    display: flex;
+
+}
+
+.logo {
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 0.93333;
+    color: #173a56;
+    display: flex;
+    align-items: center;
+    margin-right: 237px;
+}
+
+.nav-list {
+    display: flex;
+    gap: 30px;
+}
+
+.nav-link {
+    line-height: 1.75;
+    padding: 26px 0;
+    display: block;
+}
+
+.current {
+    font-weight: 600;
+}
+
+.header-list-btn {
+    display: flex;
+    margin-left: auto;
+    gap: 21px;
+    align-items: center;
+}
+
+.header-btn {
+    font-weight: 600;
+    font-size: 16px;
+    border-radius: 4px;
+}
+
+.header-btn-in {
+    border: 1px solid #bcd0e5;
+    min-width: 105px;
+    height: 42px;
+    color: #173a56;
+}
+
+.header-btn-up {
+    min-width: 113px;
+    height: 42px;
+    background-color: #02897a;
+    color: #fff;
+}
+
+/* ------------------HEADER------------------ */
+
+/* ------------------HERO------------------ */
+
+.hero {
+    padding-top: 25px;
+    padding-bottom: 50px;
+}
+
+.hero .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.hero-text-wrap {
+    max-width: 465px;
+}
+
+.hero-title {
+    margin-bottom: 18px;
+    font-size: 40px;
+    line-height: 1.5;
+    max-width: 375px;
+}
+
+.hero-text {
+    margin-bottom: 45px;
+    font-size: 18px;
+    line-height: 1.55;
+}
+
+.hero-list {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+
+.hero-btn-start {
+    border-radius: 4px;
+    min-width: 178px;
+    height: 53px;
+    background: #02897a;
+    font-weight: 700;
+    font-size: 16px;
+    color: #fff;
+}
+
+.hero-btn-start:hover,
+.hero-btn-start:focus {
+    background-color: #03584e;
+    color: #efd0d0;
+}
+
+.hero-btn-watch {
+    font-weight: 600;
+    font-size: 16px;
+    text-decoration: underline;
+    color: #02897a;
+}
+
+/* ------------------HERO------------------ */
+
+/* ------------------PRODUCT------------------ */
+
+.product {
+    padding: 50px 0;
+}
+
+.product-title {
+    font-size: 32px;
+    text-align: center;
+    max-width: 535px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 50px;
+}
+
+.product-list {
+    display: flex;
+    gap: 30px;
+    margin-bottom: 50px;
+}
+
+.product-item {
+    width: calc((100% - 90px) / 4);
+}
+
+.product-subtitle {
+    font-weight: 600;
+    font-size: 22px;
+    margin-bottom: 13px;
+}
+
+.product-text {
+    line-height: 1.62;
+}
+
+.product-btn {
+    border-radius: 4px;
+    min-width: 175px;
+    height: 53px;
+    background-color: #02897a;
+    font-weight: 700;
+    font-size: 16px;
+    color: #fff;
+    margin: 0 auto;
+    display: block;
+}
+
+/* ------------------PRODUCT------------------ */
+
+/* ----------------Management----------------- */
+
+.management {
+    padding: 50px 0;
+}
+
+.management .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.management-text-wrap {
+    max-width: 486px;
+}
+
+.management-title {
+    font-size: 32px;
+    margin-bottom: 24px;
+}
+
+.management-text {
+    font-size: 16px;
+    line-height: 1.625;
+    margin-bottom: 30px;
+}
+
+.management-list {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.management-item {}
+
+.management-item-subtitle {
+    font-size: 16px;
+    line-height: 1.625;
+    margin-bottom: 12px;
+}
+
+.management-item-text {
+    font-size: 16px;
+    line-height: 1.625;
+}
+
+/* ----------------Management----------------- */
+
+/* ------------------SUPPORT------------------ */
+
+.support {
+    padding: 50px 0;
+}
+
+.support .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.support-text-wrap {
+    max-width: 452px;
+}
+
+.support-subtitle {
+    font-size: 32px;
+    margin-bottom: 25px;
+}
+
+.support-text {
+    font-size: 16px;
+    line-height: 1.625;
+    margin-bottom: 30px;
+}
+
+.support-list {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.support-item {}
+
+.support-item-text {
+    font-size: 16px;
+    line-height: 1.625;
+}
+
+/* ------------------SUPPORT------------------ */
+
+/* ----------------COLLABORATION---------------- */
+
+.collaboration {
+    padding: 50px 0;
+}
+
+.collaboration .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.collaboration-text-wrap {
+    max-width: 486px;
+}
+
+.collaboration-title {
+    font-size: 32px;
+    margin-bottom: 25px;
+}
+
+.collaboration-text {
+    font-size: 16px;
+    line-height: 1.625;
+    margin-bottom: 30px;
+}
+
+.collaboration-list {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.collaboration-item {}
+
+.collaboration-item-subtitle {
+    font-size: 16px;
+    line-height: 1.625;
+    margin-bottom: 12px;
+}
+
+.collaboration-item-text {
+    font-size: 16px;
+    line-height: 1.625;
+}
+
+/* ----------------COLLABORATION---------------- */
+
+/* ------------------STAFF------------------ */
+
+.staff {
+    padding: 50px 0;
+}
+
+.staff .container {
+    padding: 50px 97px 0 97px;
+}
+
+.staff-title {
+    font-size: 32px;
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.staff-text {
+    font-size: 16px;
+    line-height: 1.625;
+    text-align: center;
+    max-width: 542px;
+    margin: 0 auto 40px auto;
+}
+
+.staff-list {
+    display: flex;
+    align-items: center;
+}
+
+.staff-item {
+    margin-bottom: 50px;
+}
+
+.staff-item-text {}
+
+.staff-btn {
+    font-weight: 700;
+    font-size: 16px;
+    color: #fff;
+    min-width: 216px;
+    height: 53px;
+    background-color: #02897a;
+    border-radius: 4px;
+    margin: 0 auto;
+}
+
+/* ------------------STAFF------------------ */
+
+/* ------------------News feed------------------ */
+
+/* ------------------News feed------------------ */
+
+/* ------------------PRICE------------------ */
+
+/* ------------------PRICE------------------ */
+
+/* ------------------FEEDBACK------------------ */
+
+/* ------------------FEEDBACK------------------ */
+
+/* ------------------PROMO------------------ */
+
+/* ------------------PROMO------------------ */
+
+/* ------------------FOOTER------------------ */
+
+/* ------------------FOOTER------------------ */
