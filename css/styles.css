@@ -1010,10 +1010,10 @@ img {
 
 .feedback-item-text {
     font-weight: 400;
-        font-size: 16px;
-        line-height: 1.75;
-        letter-spacing: 0.01em;
-        color: #737373;
+    font-size: 16px;
+    line-height: 1.75;
+    letter-spacing: 0.01em;
+    color: #737373;
 }
 
 .feedback-item-box {
@@ -1021,24 +1021,22 @@ img {
     gap: 14px;
 }
 
-.feedback-item-subbox {
-
-}
+.feedback-item-subbox {}
 
 .feedback-item-name {
     font-weight: 600;
-        font-size: 16px;
-        line-height: 1.5;
-        letter-spacing: 0.01em;
-        color: #02897a;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.01em;
+    color: #02897a;
 }
 
 .feedback-item-employee {
     font-weight: 500;
-        font-size: 14px;
-        line-height: 1.71429;
-        letter-spacing: 0.01em;
-        color: #252b42;
+    font-size: 14px;
+    line-height: 1.71429;
+    letter-spacing: 0.01em;
+    color: #252b42;
 }
 
 /* ------------------FEEDBACK------------------ */
@@ -1269,67 +1267,273 @@ img {
 
 /* ------------------PRICING------------------ */
 
-.pricing {}
+.pricing {
+    padding: 50px 0 97px 0;
+}
 
 .container {}
 
-.pricing-title {}
+.pricing-title {
+    font-weight: 600;
+    font-size: 24px;
+    text-align: center;
+    margin-bottom: 32px;
+}
 
-.pricing-subtitle {}
+.pricing-subtitle {
+    font-weight: 700;
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 16px;
+}
 
-.pricing-text {}
+.pricing-text {
+    font-weight: 500;
+    font-size: 16px;
+    text-align: center;
+    margin-bottom: 50px;
+}
 
 /* ------------------PRICING------------------ */
 
 /* ------------------ENTERPRISE------------------ */
 
-.enterprise {}
+.enterprise {
+    padding: 53px 0 75px 0;
+    background: linear-gradient(180deg, #f6f6f6 0%, rgba(246, 246, 246, 0) 100%);
+}
 
 .container {}
 
-.enterprise-title {}
+.enterprise-title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+    font-weight: 700;
+    font-size: 34px;
+    margin-bottom: 8px;
+}
 
-.enterprise-text {}
+.enterprise-accent {
+    font-weight: 600;
+    font-size: 24px;
+    text-align: center;
+}
 
-.enterprise-btn {}
+.enterprise-text {
+    font-weight: 400;
+    font-size: 18px;
+    margin-bottom: 32px;
+    text-align: center;
+}
+
+.enterprise-btn {
+    font-weight: 600;
+    font-size: 18px;
+    color: #fff;
+    min-width: 224px;
+    height: 44px;
+    background-color: #02897a;
+    border-radius: 8px;
+    margin: 0 auto;
+    display: block;
+    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.25);
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1), color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+
+
+.enterprise-btn:hover,
+.enterprise-btn:focus {
+    background-color: #fff;
+    color: #02897a;
+    border: 1px solid #02897a;
+}
 
 /* ------------------ENTERPRISE------------------ */
 
 /* ------------------USE------------------ */
 
-.use {}
+.use {
+    padding: 75px 0 74px 0;
+}
 
 .container {}
 
-.use-title {}
+.use-title {
+    font-weight: 700;
+        font-size: 34px;
+        text-align: center;
+        margin-bottom: 56px;
+}
 
-.use-list {}
+.use-box {
+    display: flex;
+    gap: 60px;
+    align-items: center;
+    justify-content: center;
+}
 
-.use-item {}
+.icon-devices {
+    /* box-sizing:content-box */
+}
 
-.use-subtitle {}
+.use-list {
+    display: flex;
+    gap: 32px;
+    flex-direction: column;
+    max-width: 543px;
+}
 
-.use-text {}
+.use-item {
+    
+}
+
+.use-item-box {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    margin-bottom: 16px;
+}
+
+.product-icons {
+    background-color: #f4f5f7;
+    border-radius: 50px;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.use-subtitle {
+    font-weight: 600;
+    font-size: 24px;
+}
+
+.use-text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.75;
+}
+
+.use-text-width {
+    max-width: 508px;
+}
 
 /* ------------------USE------------------ */
 
 /* ------------------QUESTION------------------ */
-.question {}
+.question {
+    padding: 75px 0 100px 0;
+}
 
 .container {}
 
-.question-title {}
+.question-title {
+    font-size: 34px;
+    text-align: center;
+    margin-bottom: 8px;
+}
 
-.question-text {}
+.question-text {
+    font-size: 18px;
+    text-align: center;
+    margin-bottom: 50px;
+}
 
-.question-list {}
+.question-list {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 auto;
+    max-width: 920px;
+    gap: 16px;
+}
 
-.question-item {}
+.question-item {
+    border-bottom: 1px solid #e7e7e7;
+    padding-bottom: 8px;
+}
 
-.question-subtitle {}
+.question-subtitle {
+    font-weight: 500;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    margin-bottom: 14px;
+}
 
-.question-subtext {}
+.plus-icon {
+}
 
+.icon-plus-minus {
+    fill: #02897a;
+}
+
+.question-line {
+}
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+/* Прихований контент за замовчуванням */
+.question-subtext {
+    margin-bottom: 8px;
+    font-size: 16px;
+    max-height: 0;
+    overflow: hidden;
+    opacity: 0;
+    transition: max-height 600ms cubic-bezier(0.4, 0, 0.2, 1), opacity 500ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+/* SVG стилізація */
+.icon-wrapper {
+    position: relative;
+    width: 24px;
+    height: 24px;
+}
+
+.icon-plus,
+.icon-minus {
+    position: absolute;
+    top: 0;
+    left: 0;
+    fill: #02897a;
+    transition: opacity 500ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+/* Початково "-" прихований */
+.icon-minus {
+    opacity: 0;
+}
+
+/* Коли input активний — показати текст і мінус */
+input:checked+label+.question-subtext {
+    max-height: 500px;
+    opacity: 1;
+    /* margin: 10px 0; */
+}
+
+/* Показати "-" і сховати "+" */
+input:checked+label .icon-plus {
+    opacity: 0;
+}
+
+input:checked+label .icon-minus {
+    opacity: 1;
+}
 /* ------------------QUESTION------------------ */
 
 /* -----------END Pricing END---------- */
