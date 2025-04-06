@@ -552,6 +552,23 @@ main {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    position: relative;
+        overflow: hidden;
+}
+
+.management .container::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0%;
+    height: 2px;
+    background-color: #02897A;
+    transition: width 0.5s ease;
+}
+
+.management .container:hover::after {
+    width: 100%;
 }
 
 .management-text-wrap {
@@ -603,6 +620,23 @@ main {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    position: relative;
+        overflow: hidden;
+}
+
+.support .container::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0%;
+    height: 2px;
+    background-color: #02897A;
+    transition: width 0.5s ease;
+}
+
+.support .container:hover::after {
+    width: 100%;
 }
 
 .support-text-wrap {
@@ -665,6 +699,23 @@ main {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    position: relative;
+        overflow: hidden;
+}
+
+.collaboration .container::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0%;
+    height: 2px;
+    background-color: #02897A;
+    transition: width 0.5s ease;
+}
+
+.collaboration .container:hover::after {
+    width: 100%;
 }
 
 .collaboration-text-wrap {
