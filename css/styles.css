@@ -458,6 +458,23 @@ main {
 
 .product-item {
     width: calc((100% - 90px) / 4);
+    position: relative;
+    overflow: hidden;
+}
+
+.product-item::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 0%;
+    height: 2px;
+    background-color: #02897A;
+    transition: width 0.3s ease;
+}
+
+.product-item:hover::after {
+    width: 100%;
 }
 
 .product-icon-box {
@@ -1353,6 +1370,39 @@ main {
 .work-item {
     display: flex;
     gap: 80px;
+    padding: 4px 0 4px 0;
+    position: relative;
+    overflow: hidden;
+}
+
+.work-item::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0%;
+    height: 2px;
+    background-color: #02897A;
+    transition: width 0.3s ease;
+}
+
+.work-item:hover::after {
+    width: 100%;
+}
+
+.work-item::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0%;
+    height: 2px;
+    background-color: #02897A;
+    transition: width 0.3s ease;
+}
+
+.work-item:hover::before {
+    width: 100%;
 }
 
 .work-img-swg-box {
@@ -1679,6 +1729,8 @@ main {
 .question-item {
     border-bottom: 1px solid #e7e7e7;
     padding-bottom: 8px;
+    position: relative;
+    overflow: hidden;
 }
 
 .question-subtitle {
@@ -1689,6 +1741,21 @@ main {
     gap: 16px;
     margin-bottom: 14px;
     cursor: pointer;
+}
+
+.question-item::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0%;
+    height: 2px;
+    background-color: #02897A;
+    transition: width 0.3s ease;
+}
+
+.question-item:hover::after {
+    width: 100%;
 }
 
 .plus-icon {}
@@ -1724,7 +1791,7 @@ main {
 
 /* SVG стилізація */
 .icon-wrapper {
-    position: relative;
+    /* position: relative; */
     width: 24px;
     height: 24px;
 }
