@@ -430,7 +430,7 @@ main {
 
 .hero-btn-watch:hover .icon-play,
 .hero-btn-watch:focus .icon-play {
-    transform: rotate(240deg);
+    transform: rotate(240deg) scale(1.1);
 }
 
 /* ------------------HERO------------------ */
@@ -735,12 +735,14 @@ main {
     min-width: 281px;
     height: 53px;
     box-shadow: 2px 2px 10px 0 rgba(23, 58, 86, 0.15);
-    transition: transform 500ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: transform 500ms cubic-bezier(0.4, 0, 0.2, 1), box-shadow 500ms cubic-bezier(0.4, 0, 0.2, 1), color 500ms cubic-bezier(0.4, 0, 0.2, 1), font-weight 500ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.stuff-item:hover .stuff-item-text,
-.stuff-item:focus .stuff-item-text {
-    transform: scale(1.12);
+.stuff-item:hover .stuff-item-text {
+    transform: scale(1.1);
+    box-shadow: 2px 2px 10px 0 #0289799d;
+    color: #02897A;
+    font-weight: 600;
 }
 
 .stuff-btn {
